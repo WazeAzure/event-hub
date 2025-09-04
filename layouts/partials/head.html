@@ -18,11 +18,6 @@
         document.documentElement.classList.remove('dark')
     }
 </script>
-{{ $carouselCSS := resources.Get "css/carousel.css" | postCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $carouselCSS.RelPermalink }}" integrity="{{ $carouselCSS.Data.Integrity }}">
-
-{{ $carouselJS := resources.Get "js/carousel.js" | minify | fingerprint }}
-<script src="{{ $carouselJS.RelPermalink }}" integrity="{{ $carouselJS.Data.Integrity }}" defer></script>
 
 {{ $styles := resources.Get "/css/style.css" | postCSS }}
 {{ if $.Site.IsServer }}
