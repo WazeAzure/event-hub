@@ -8,6 +8,7 @@
 <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 {{ partial "meta" . }}
 <script>
     // On page load or when changing themes, best to add inline in `head` to avoid FOUC
@@ -17,6 +18,12 @@
         document.documentElement.classList.remove('dark')
     }
 </script>
+{{ $carouselCSS := resources.Get "css/carousel.css" | postCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $carouselCSS.RelPermalink }}" integrity="{{ $carouselCSS.Data.Integrity }}">
+
+{{ $carouselJS := resources.Get "js/carousel.js" | minify | fingerprint }}
+<script src="{{ $carouselJS.RelPermalink }}" integrity="{{ $carouselJS.Data.Integrity }}" defer></script>
+
 {{ $styles := resources.Get "/css/style.css" | postCSS }}
 {{ if $.Site.IsServer }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />

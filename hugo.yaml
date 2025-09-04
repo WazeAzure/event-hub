@@ -49,6 +49,7 @@ params:
   author: Nusser Studios
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
+  heroTitle: "Security For Everyone"
   moto: "Wo-Men In Tech Security"
   # moto2: "Women in Tech Security"
   description: "Women In Tech Security - Empowering women and raising cybersecurity awareness for everyone."
@@ -56,10 +57,10 @@ params:
   disable_stay_uptodate: false
 
   p1:
-    heading: "Our vission and mission"
+    heading: "Our vision and mission"
     image: "images/pages/our-mission.png"
     content:
-      - text: "Our Vission: A diverse and inclusive world where everyone is fully aware of and actively takes care of their cybersecurity."
+      - text: "Our Vision: A diverse and inclusive world where everyone is fully aware of and actively takes care of their cybersecurity."
       - text: "Our Mission: At Women in Tech Security, our mission is to create a secure, inclusive digital landscape by fostering cybersecurity awareness and empowering individuals, especially women, to thrive in the cybersecurity field. We strive to:"
       - lists: 
         - "Educating the public on emerging threats and protection strategies to ensure safer online spaces."
@@ -99,6 +100,31 @@ params:
     label: "Email address"
     placeholder: "Enter your email"
     button: "Notify me"
+  p6:
+    heading: "What is WTS?"
+    content:
+      - text: "Women In Tech Security (WTS) is an initiative aimed at building cybersecurity awareness and increasing community involvement, especially among women. We welcome everyone regardless of gender or background."
+
+  p7:
+    heading: "Area of Topics"
+    content:
+      - text: "We cover a wide range of cybersecurity-related areas, including:"
+    lists:
+      - "Cyber Insecurity: Risks like malware, hacking, phishing, scams, fraud, and disinformation."
+      - "Data Privacy, Protection, and Security: Ensuring confidentiality, integrity, and availability of information."
+      - "Open Source Intelligence: Gathering public info to detect scams, fraud, or threat actors."
+      - "Cybersecurity Career: Career paths including security analysts, ethical hackers, and consultants."
+
+  p8:
+    heading: "How Can WTS Help You Get Involved?"
+    content:
+      - text: "Our organization provides different ways to engage and grow in cybersecurity:"
+    lists:
+      - "Content & Storytelling"
+      - "Community & Networking"
+      - "Events & Collaboration"
+      - "Leadership & Empowerment"
+    footer: "We engage members with insightful content, foster strong networks, facilitate impactful events, and cultivate leadership opportunities."
 
   social_media:
     github:
