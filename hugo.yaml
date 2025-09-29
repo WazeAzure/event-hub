@@ -47,8 +47,8 @@ markup:
 
 params:
   author: Nusser Studios
-  authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
+  authorimage: ../assets/images/global/WTS-Logo-Purple.svg
+  og_image: /images/WTS-Logo-Purple.svg
   heroTitle: "Security For Everyone"
   moto: "Wo-Men In Tech Security"
   # moto2: "Women in Tech Security"
@@ -61,12 +61,12 @@ params:
     image: "images/pages/our-mission.png"
     content:
       - text: "Our Vision: A diverse and inclusive world where everyone is fully aware of and actively takes care of their cybersecurity."
-      - text: "Our Mission: At Women in Tech Security, our mission is to create a secure, inclusive digital landscape by fostering cybersecurity awareness and empowering individuals, especially women, to thrive in the cybersecurity field. We strive to:"
+      - text: "Our Mission: A secure, inclusive digital landscape by fostering cybersecurity awareness and empowering individuals, especially women, to thrive in the cybersecurity field. We strive to:"
       - lists: 
-        - "Educating the public on emerging threats and protection strategies to ensure safer online spaces."
-        - "Providing resources, opportunities, and networks for women to advance their careers in cybersecurity."
-        - "Cultivating a strong, supportive community where knowledge and experiences are shared freely."
-        - "Fostering an inclusive environment where everyone can contribute to securing the digital world."
+        - "Increasing Cybersecurity Awareness: Educating the public about cybersecurity threats and effective digital protection strategies."
+        - "Advancing Careers in Cybersecurity: Providing support, opportunities, and networks for individuals, particularly women, to build careers in the cybersecurity industry."
+        - "Building Collaborative Community Networks: Forming a strong, collaborative community to facilitate the exchange of knowledge, ideas, and experiences."
+        - "Encouraging Active Participation: Fostering an inclusive environment where everyone can contribute to creating a secure digital world."
   p2:
     heading: "Lorem Ipsum Dolor sit."
     image: "images/pages/hacktoberfest.jpg"
@@ -81,7 +81,7 @@ params:
         url: "#"
     logos:
       - identifier: a
-        image: "images/global/sample-logo.svg"
+        image: "images/global/WTS Logo Sample.svg"
         alt: "a"
       - identifier: b
       - identifier: c
@@ -103,17 +103,21 @@ params:
   p6:
     heading: "What is WTS?"
     content:
-      - text: "Women In Tech Security (WTS) is an initiative aimed at building cybersecurity awareness and increasing community involvement, especially among women. We welcome everyone regardless of gender or background."
+      - text: "Women In Tech Security (WTS) is an initiative aimed at building cybersecurity awareness and increasing community involvement, especially among women. We were founded as a community organization by young cybersecurity professionals with the goal of making an impact in cyberspace. \nThe name Women In Tech Security reflects our commitment to encompassing various aspects of technology that involve security. We aim to promote the importance of cybersecurity to the broader tech community, adapting to technological developments across different sectors. \nOur name highlights the crucial role of women in all aspects of technology and security. Importantly, our organization is not limited to women; we welcome and include everyone, regardless of background or gender, who shares our vision. Through this name, we hope to inspire more women and other tech professionals to engage and take an active role in the cybersecurity field."
 
   p7:
     heading: "Area of Topics"
     content:
       - text: "We cover a wide range of cybersecurity-related areas, including:"
     lists:
-      - "Cyber Insecurity: Risks like malware, hacking, phishing, scams, fraud, and disinformation."
-      - "Data Privacy, Protection, and Security: Ensuring confidentiality, integrity, and availability of information."
-      - "Open Source Intelligence: Gathering public info to detect scams, fraud, or threat actors."
-      - "Cybersecurity Career: Career paths including security analysts, ethical hackers, and consultants."
+      - title: "Cyber Insecurity"
+        description: "Encompasses the various risks and vulnerabilities posed by online threats such as malware, hacking, phishing, scams, fraud, and disinformation. It highlights the challenges individuals and organizations face in protecting their digital assets and personal information from cyberattacks and data breaches."
+      - title: "Data Privacy, Protection, and Security"
+        description: "Involves ensuring the confidentiality, integrity, and availability of sensitive information. This includes implementing measures to prevent unauthorized access, use, and disclosure of data, as well as safeguarding individuals' privacy rights. It also includes addressing societal trends that unknowingly lead to data leaks."
+      - title: "Open Source Intelligence"
+        description: "Involves gathering and analyzing publicly available information from various sources to generate insights and intelligence. It plays a crucial role in cybersecurity by providing valuable data for detecting scams, fraud, or threat actors that have been affecting our society for a long time."
+      - title: "Cybersecurity Career"
+        description: "Offers diverse opportunities for individuals interested in protecting digital assets and combating cyber threats. Roles such as security analysts, ethical hackers, and cybersecurity consultants typically require acquiring relevant skills, certifications, and experience in tech and security area."
 
   p8:
     heading: "How Can WTS Help You Get Involved?"
@@ -129,17 +133,25 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/nusserstudios'
+      url: 'examplesite.com'
     facebook:
       enabled: true
-      url: 'https://facebook.com/nusserstudios'
+      url: 'examplesite.com'
     instagram:
       enabled: true
-      url: 'https://instagram.com/nusserstudios'
+      url: 'https://www.instagram.com/womenintechsecurity_/'
     twitter:
       enabled: true
-      url: 'https://twitter.com/nusserstudios'
-    
+      url: 'examplesite.com'
+    email:
+      enabled: true
+      url: 'examplesite.com'
+    whatsapp:
+      enabled: true
+      url: 'https://whatsapp.com/channel/0029VagX2lM4yltUsD26RV41' 
+    linkedin:
+      enabled: true
+      url: 'examplesite.com'
 
 menu:
   main:
@@ -147,10 +159,10 @@ menu:
     #   name: Prose
     #   url: /prose/
     #   weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 20
     # - identifier: categories
     #   pre: dropdown
     #   name: Categories

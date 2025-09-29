@@ -10,6 +10,13 @@
         <p class="text-sm text-gray-400 mb-4">{{ .Date | time.Format "Jan 2, 2006" }}</p>
       {{ end }}
     {{ end }}
+
+    <!-- Featured Image -->
+    {{ with .Params.image }}
+      <div class="mb-6">
+        <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="rounded-xl shadow-lg mx-auto" />
+      </div>
+    {{ end }}
     
     <div class="prose prose-invert max-w-none">
       {{ .Content }}
